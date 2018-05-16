@@ -31,11 +31,13 @@ function doWhileLoop(array) {
   do {
     array.lenght--;
   } while (array.lenght > 0 && maybeTrue())
+  return array;
 }
 
 let arr = [1, 2, 4, 5, 6];
-console.log(arr);
-console.log(arr.length);
-arr.length--;
-console.log(arr.length);
-console.log(arr);
+// console.log(arr);
+// console.log(arr.length);
+// arr.length--;
+// console.log(arr.length);
+// console.log(arr);
+console.log(doWhileLoop(arr));

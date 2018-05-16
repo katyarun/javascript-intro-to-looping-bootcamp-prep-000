@@ -35,10 +35,5 @@ function doWhileLoop(array) {
   return array;
 }
 
-let arr = [1, 2, 4, 5, 6];
-// console.log(arr);
-// console.log(arr.length);
-// arr.length--;
-// console.log(arr.length);
-// console.log(arr);
-doWhileLoop(arr);
+// let arr = [1, 2, 4, 5, 6];
+// doWhileLoop(arr);

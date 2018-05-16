@@ -22,3 +22,7 @@ function whileLoop(number) {
 }
 
 // whileLoop(10);
+
+function doWhileLoop(array) {
+  
+}

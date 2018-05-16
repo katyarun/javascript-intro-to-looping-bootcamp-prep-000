@@ -35,6 +35,6 @@ function doWhileLoop(array) {
 
 let arr = [1, 2, 4, 5, 6];
 console.log(arr);
-console.log(arr.lenght);
+console.log(arr.length);
 arr.length--;
-console.log(arr.lenght);
+console.log(arr.length);

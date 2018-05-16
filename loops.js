@@ -38,3 +38,4 @@ console.log(arr);
 console.log(arr.length);
 arr.length--;
 console.log(arr.length);
+console.log(arr);

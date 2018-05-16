@@ -28,5 +28,13 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array) {
-  
+  do {
+    array.lenght--;
+  } while (array.lenght > 0 && maybeTrue())
 }
+
+let arr = [1, 2, 4, 5, 6];
+console.log(arr);
+console.log(arr.lenght);
+arr.length--;
+console.log(arr.lenght);
